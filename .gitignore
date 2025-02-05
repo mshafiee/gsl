@@ -1,0 +1,38 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go compiler output
+*.o
+*.a
+*.out
+
+# Test binary
+*.test
+
+# Dependency management tools (e.g., Go Modules)
+/vendor/  # Remove this line if you're solely using Go Modules without vendoring
+# go.sum  # Remove this line to track go.sum
+
+# IDE/Editor specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Build artifacts
+/build/
+/dist/
+
+# Log files
+*.log
+
+# Temporary files
+*~
